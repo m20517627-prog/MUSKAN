@@ -2,91 +2,66 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width= , initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    
-<header style="text-align: center;">
-    <h1> Daily Big News </h1>
-    <h3>Our Trusted Source for Latest Updates !!!</h3>
-  </header>
+    <h1 align="center"> Student Registration Form</h1>
+    <hr>
+    <!--Registration Form-->
+    <form method="post" action="submit html">
 
-  <hr style="height: 4px solid blue;">
-  <br>
-  <nav style="text-align: center;">
-    <a href="#world"> World  |  </a> 
-    <a href="#sports">Sports  |  </a>
-    <a href="#entertainment">Entertainment  |  </a>
-    <a href="#podcast">Podcast  |  </a>
-    <a href="#contact">Contact</a>
-    
-  </nav>
-  <br>
-  <hr style="height: 4px solid black;">
+        <!--Full Name-->
+        <p>
+            <label>Full Name:</label>
+            <input type="text" name="fullname" placeholder="Enter your full name" required>
+        </p>
+        <!--email with validation-->
+        <p>
+            <lable>Password:</lable>
+            <input type="password" name="Password" placeholder="Enter password" required>
+        </p>
+        <!--Gender (radio button)-->
+        <p>
+            <lable>Gender:</lable>
+            <input type="radio" name="gender" value="male" required>Male
+            <input type="radio" name="gender" value="female" required>Female
+        </p> 
 
-  <div id="world">
-    <h2>World News</h2>
-    <h3>Today's top headline: Global leaaders meet to discuss climate change initiatives</h3>
-      <img src="newsss.jpg" alt="">
-     <p><a href="https://www.ABC.com" width="200" target="_blank">Read more on ABC </a></P>
-      <br>
-      <hr style="height: 4px solid black;">
-      
+        <!--course selection (dropdown)-->
+        <p>
+            <lable>Course:</lable>
+            <select name="Course" required>
+                <option value="">--select course--</option>
+                <option value="Btech">Btech</option>
+                <option value="BCA">BCA</option>
+                <option value="MBA">MBA</option>
+                <option value="MCA">MCA</option>
+            </select>
+        </p>
 
-  </div id = "sports">
-    <h2>Sports Update</h2>
-     <p>Highlights of Cricket Match!! </p>
-      
-       <iframe width="560" height="315" src="https://www.youtube.com/watch?v=AzMJ3Vl9Th4" title="YouTube video player" frameborder="0" 
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-  </div>
-  <br>
-  <br>
-   <hr style="height: 4px solid black;">
+        <!--contct number-->
+        <p>
+            <lable>Contact No:</lable>
+            <input type="tel" name="contact" placeholder="Enter phone number" required>
+        </p>
+        <!--adress (textarea)-->
+        <p>
+            <lable>Address:</lable><br>
+            <textarea name="adress" rows="4" cols="40" placeholder="Enter your address" required></textarea>
+        </p>
+        <!--submit and reset-->
+        <p>
+            <input type="submit" value="Register">
+           <input type="reset" value="Clear">
+        </p>
+        </form>
 
-  <div id="entertainment">
-    <h2>Entertainment Buzz</h2>
-    <p>New movie trailer released today. Fans are exicted</p>
-    <video src="traliorrrr.mp4"   controls></video>
-    
-  </div>
-  <br>
-   <hr style="height: 4px solid black;">
+        <hr>
+        <p align="center">&cpoy:2025 Student Registration Portal</p>
+        
 
-  
-
-  <div id="podcast">
-    <h2>News Podcast</h2>
-    <p>Listen to today's top headlines : </p>
-      <audio src="audio html.mp3" controls></audio>
-  </div>
-  <br>
-   <hr style="height: 4px solid black;">
-
-  <div id="contact">
-    <h2>Contact</h2>
-    <p>For any queries, contact us at <a href="mailto:info@mywebsite.com">News@bymuskanwebsite.com</a>.</p>
-  </div>
-
-  <footer>
-    <p>&copy; 2025 My New Website | BY MUSKAN  | 2025B01010746</p>
-  </footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        <P>BY MUSKAN | 2025B01010746</P>
 
 </body>
 </html>
